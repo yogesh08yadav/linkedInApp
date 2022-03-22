@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    width: 100%;
+    z-index: 999;
+    
+}
+
+.header__left{
+    display: flex;
+}
+
+.header__left > img{
+    object-fit: contain; 
+    height: 40px;
+    margin-top:13px;
+}
+.header__search{
+    align-items: center;
+    display: flex;
+    /* padding:10px ; */
+    border-radius: 5px;
+    height: 30px;
+margin-top:20px;
+margin-left: 10px;
+    color: grey;
+    background-color: rgb(246, 251, 255);
+}
+.header__search > input{
+    
+    /* outline will give blue line to complete search cclass */
+    outline: none;
+    /* border will vanish the box */
+    border: none;
+    background: none;
+
+}
